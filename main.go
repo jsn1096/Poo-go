@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	Go := Course{
 		Name:    "Go desde cero",
@@ -15,11 +13,5 @@ func main() {
 		},
 	}
 
-	React := Course{
-		Name:   "React desde cero",
-		IsFree: true,
-	}
-
-	fmt.Println(Go.Name)
-	fmt.Println(React.Classes)
+	Go.PrintClasses()
 }
